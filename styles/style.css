@@ -127,3 +127,34 @@ h2.title {
   height: 427px;
 }
 /* Footer Section */
+footer {
+  padding: 50px 0;
+}
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-img img {
+  width: 480px;
+  height: 110px;
+}
+.social a i {
+  width: 50px;
+  height: 50px;
+  margin: 0 3px 20px 0;
+  border-radius: 50%;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+  transition: ease-out 0.3s;
+  background: #0b0d17;
+}
+.social a i:hover {
+  background-color: #2d25a0;
+  color: #fff;
+}
+.copyright {
+  font-size: 18px;
+  line-height: 24px;
+}
